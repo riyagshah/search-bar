@@ -1,0 +1,83 @@
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+.bar {
+  border: 1px solid;
+  max-width: 500px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+input {
+  width: 88%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+}
+.dataShow{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0;
+}
+.cross {
+  cursor: pointer;
+}
+.rightDiv {
+  display: flex;
+  align-items: center;
+}
+.cross:hover {
+  background-color: rgb(225, 222, 222);
+  border-radius: 20px;
+}
+.hidden{
+  display: hidden;
+}
+.searchData{
+  border: 1px solid;
+  max-width: 500px;
+  margin: auto;
+  height: 200px;
+  overflow: auto;
+  font-size: 18px;
+  border-top: none;
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: whitesmoke;
+}
+.searchData>div{
+  padding: 1% 0 1% 32px;
+  margin: 5px 0;
+  transition: 300ms;
+
+}
+.searchData>div:hover{
+  background-color: lightgray;
+  cursor: pointer;
+  font-weight:600;
+}
+.nomatch{
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  width: 4px;
+  background-color: lightgray;
+}
